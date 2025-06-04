@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           
           <div className="text-gray-400 text-center md:text-right">
-            <p>&copy; 2024 João Silva. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Thiago Coutinho. Todos os direitos reservados.</p>
             <p className="text-sm mt-1">Desenvolvido com ❤️ e muita ☕</p>
           </div>
         </div>

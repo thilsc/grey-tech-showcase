@@ -34,7 +34,7 @@ const Header = () => {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            {['inicio', 'sobre', 'projetos', 'contato'].map((item) => (
+            {['início', 'sobre', 'projetos', 'contato'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
@@ -57,7 +57,7 @@ const Header = () => {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden mt-4 py-4 bg-gray-800 rounded-lg border border-gray-700">
-            {['inicio', 'sobre', 'projetos', 'contato'].map((item) => (
+            {['início', 'sobre', 'projetos', 'contato'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}

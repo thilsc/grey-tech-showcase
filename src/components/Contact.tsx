@@ -6,21 +6,21 @@ const Contact = () => {
   const socialLinks = [
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/joaosilva',
+      url: 'https://linkedin.com/in/thiagolsc',
       icon: Linkedin,
       color: 'hover:text-blue-500',
       bgColor: 'hover:bg-blue-500/10'
     },
     {
       name: 'GitHub',
-      url: 'https://github.com/joaosilva',
+      url: 'https://github.com/thilsc',
       icon: Github,
       color: 'hover:text-gray-300',
       bgColor: 'hover:bg-gray-500/10'
     },
     {
       name: 'DEV.to',
-      url: 'https://dev.to/joaosilva',
+      url: 'https://dev.to/thcoutinho',
       icon: () => (
         <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor">
           <path d="M7.42 10.05c-.18-.16-.46-.23-.84-.23H6l.02 2.44.04 2.45c.56 0 .96-.12 1.11-.4.16-.28.24-.77.24-1.46 0-.69-.08-1.18-.24-1.46-.16-.28-.56-.4-1.11-.4-.18 0-.46.07-.64.23zm12.72 3.18c-.18.16-.46.23-.84.23h-.58l.02-2.44-.04-2.45c.56 0 .96.12 1.11.4.16.28.24.77.24 1.46 0 .69-.08 1.18-.24 1.46-.16.28-.56.4-1.11.4-.18 0-.46-.07-.64-.23zM24 0H0v24h24V0zM8.56 12.68c-.02.33-.06.66-.14.98-.08.32-.2.6-.36.84-.16.24-.36.43-.6.57-.24.14-.54.21-.9.21-.36 0-.66-.07-.9-.21-.24-.14-.44-.33-.6-.57-.16-.24-.28-.52-.36-.84-.08-.32-.12-.65-.14-.98l-.02-3.36c.02-.33.06-.66.14-.98.08-.32.2-.6.36-.84.16-.24.36-.43.6-.57.24-.14.54-.21.9-.21.36 0 .66.07.9.21.24.14.44.33.6.57.16.24.28.52.36.84.08.32.12.65.14.98l.02 3.36zm8.24 0c-.02.33-.06.66-.14.98-.08.32-.2.6-.36.84-.16.24-.36.43-.6.57-.24.14-.54.21-.9.21-.36 0-.66-.07-.9-.21-.24-.14-.44-.33-.6-.57-.16-.24-.28-.52-.36-.84-.08-.32-.12-.65-.14-.98l-.02-3.36c.02-.33.06-.66.14-.98.08-.32.2-.6.36-.84.16-.24.36-.43.6-.57.24-.14.54-.21.9-.21.36 0 .66.07.9.21.24.14.44.33.6.57.16.24.28.52.36.84.08.32.12.65.14.98l.02 3.36zm4.09-4.68h-2.32v7.36h-.96V8h-2.32v-.64h5.6V8z"/>
@@ -55,15 +55,15 @@ const Contact = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-4 text-gray-300">
                   <Mail className="text-blue-400" size={20} />
-                  <span>joao.silva@email.com</span>
+                  <span>contato@thiagocoutinho.com</span>
                 </div>
                 <div className="flex items-center space-x-4 text-gray-300">
                   <Phone className="text-blue-400" size={20} />
-                  <span>+55 (11) 99999-9999</span>
+                  <span>+55 (44) 9****-****</span>
                 </div>
                 <div className="flex items-center space-x-4 text-gray-300">
                   <MapPin className="text-blue-400" size={20} />
-                  <span>São Paulo, Brasil</span>
+                  <span>Maringá, Brasil</span>
                 </div>
               </div>
 
