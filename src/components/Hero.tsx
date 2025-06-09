@@ -64,10 +64,17 @@ const Hero = () => {
               <span className="animate-pulse text-blue-400">|</span>
             </h2>
           </div>
-          
+
+          {/* 
           <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed">
             Transformo ideias em código elegante e funcional. Especializado em criar experiências digitais 
             inovadoras que conectam tecnologia e usabilidade.
+          </p> 
+          */}
+
+          <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed">
+            Especializado em integrar tecnologia e funcionalidade, atuo no desenvolvimento de software em Delphi e C#/.NET,
+            transformo requisitos complexos em soluções robustas, garantindo entregas alinhadas às necessidades do negócio e ao usuário final.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

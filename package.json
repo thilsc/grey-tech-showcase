@@ -1,10 +1,10 @@
 {
-  "homepage":"https://thilsc.github.io/grey-tech-showcase",
+  "homepage": "https://thilsc.github.io/grey-tech-showcase",
   "name": "grey-tech-showcase",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": { 
+  "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",

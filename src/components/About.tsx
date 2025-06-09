@@ -3,17 +3,23 @@ import React from 'react';
 
 const About = () => {
   const skills = [
-    { name: 'React', level: 95 },
-    { name: 'TypeScript', level: 90 },
-    { name: 'Node.js', level: 85 },
-    { name: 'Python', level: 80 },
-    { name: 'AWS', level: 75 },
-    { name: 'Docker', level: 85 }
+    { name: 'Delphi', level: 99 },
+    { name: 'SQL Server', level: 85 },
+    { name: 'C#/.NET', level: 80 },
+    { name: 'MySQL', level: 75 },
+    { name: 'PHP', level: 70 },
+    { name: 'Git', level: 65 },
+    { name: 'Oracle', level: 60 },
+    { name: 'React', level: 35 },
+    { name: 'JavaScript/TypeScript', level: 30 },
+    { name: 'Node.js', level: 25 },
+    { name: 'AWS', level: 15 },
+    { name: 'PostgreSQL', level: 10 }    
   ];
 
   const technologies = [
-    'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Python',
-    'PostgreSQL', 'MongoDB', 'AWS', 'Docker', 'Git', 'Linux'
+    'Delphi', 'PHP', 'C#', '.NET', 'Node.js', 'JavaScript', 'TypeScript', 
+    'React', 'SQL', 'SQL Server', 'MySQL', 'Oracle', 'PostgreSQL', 'AWS', 'Git'
   ];
 
   return (
@@ -28,6 +34,7 @@ const About = () => {
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
+              {/*}
               <p className="text-lg text-gray-300 leading-relaxed">
                 Sou um desenvolvedor apaixonado por tecnologia com mais de 5 anos de experiência 
                 criando soluções web inovadoras. Minha jornada começou com curiosidade sobre como 
@@ -39,6 +46,26 @@ const About = () => {
                 Especializo-me em desenvolvimento full-stack, com foco especial em React, Node.js 
                 e arquiteturas escaláveis na nuvem. Acredito que o código limpo e a experiência 
                 do usuário andam de mãos dadas.
+              </p>
+              */}
+
+              <p className="text-lg text-gray-300 leading-relaxed">
+                Sou um desenvolvedor com mais de 15 anos de experiência em desenvolvimento 
+                full-stack para aplicações desktop, empregando principalmente o uso de 
+                Delphi e C# em ambientes Windows.
+                As principais áreas de atuação incluem Escrituração Fiscal Digital (EFD),
+                sistemas de emissão de notas fiscais eletrônicas (NF-e, NFS-e), 
+                desenvolvimento de sistemas de gestão empresarial (ERP),
+                além de sistemas voltados para o mercado financeiro e bancário.
+              </p>
+              <p className="text-lg text-gray-300 leading-relaxed">
+                Atualmente estou em jornada de aprendizagem para criação de front-end em React.
+                AWS também é uma das minhas áreas de interesse, onde busco aprimorar minhas habilidades
+                em serviços de nuvem e infraestrutura como código.                 
+              </p>  
+              <p className="text-lg text-gray-300 leading-relaxed">
+                Acredito que um software bem estruturado é um software que possui o código limpo,
+                a orientação a objetos e, sobretudo, a experiência do usuário como pilares fundamentais.            
               </p>
 
               <div className="pt-6">
